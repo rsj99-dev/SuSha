@@ -62,3 +62,7 @@ SuSha -i example.faa -o result
 - biopython
 - shap
 - openpyxl
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
