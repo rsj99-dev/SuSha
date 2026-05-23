@@ -1,6 +1,6 @@
 # SuSha
 
-**Version: v0.1**
+**Version: v0.1.1**
 
 A multimodal ensemble learning prediction tool for microbial salinity adaptation based on genome-wide amino acid composition features.
 
