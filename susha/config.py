@@ -35,9 +35,9 @@ AGG_COLS = [
 FEATURE_COLS = AA_COLS + AGG_COLS
 
 LABEL_MAP = {
-    0: "盐敏感 (Salt-sensitive)",
-    1: "耐盐 (Halotolerant)",
-    2: "轻嗜盐 (Slight halophilic)",
-    3: "中嗜盐 (Moderate halophilic)",
-    4: "极端嗜盐 (Extreme halophilic)"
+    0: "Salt-sensitive",
+    1: "Halotolerant",
+    2: "Slight halophilic",
+    3: "Moderate halophilic",
+    4: "Extreme halophilic"
 }
