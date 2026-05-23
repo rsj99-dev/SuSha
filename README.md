@@ -59,6 +59,7 @@ SuSha -i example.faa -o result
 - numpy
 - pandas
 - scikit-learn
+- imbalanced-learn
 - biopython
 - shap
 - openpyxl
