@@ -155,7 +155,13 @@ def run_prediction(input_file, output_prefix):
     probs = model.predict_proba(X_df)[0]
     max_prob = np.max(probs)
     
-    print(f"\n>>> Prediction Result: {pred_label} (Confidence: {max_prob:.2%}) <<<\n")
+    top3_indices = np.argsort(probs)[::-1][:3]
+    
+    print(f"\n>>> Prediction Result: {pred_label} (Confidence: {max_prob:.2%}) <<<")
+    print(f"\nTop 3 Predictions:")
+    for rank, idx in enumerate(top3_indices, 1):
+        print(f"  {rank}. {LABEL_MAP[idx]}: {probs[idx]:.2%}")
+    print()
     
     # Interpret
     contributions = interpret_model(model, X_df, pred_idx)
