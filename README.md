@@ -10,8 +10,9 @@ A multimodal ensemble learning prediction tool for microbial salinity adaptation
 |----------|-----|-------------|
 | x86_64 | Windows | 8 GB |
 | x86_64 | Linux | 4 GB |
+| LoongArch | Linux | 4 GB |
 
-> **Coming Soon**: ARM for Linux and LoongArch for Linux support
+> LoongArch for Linux support：https://github.com/user-attachments/files/27936931/SuSha-LoongArch.tar.gz
 
 ## Installation
 
