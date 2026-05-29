@@ -58,6 +58,7 @@ SuSha -i example.faa -o result
 ## Performance
 
 - Ensemble1 F1 score = 77.0% (Best Model)
+- Compared to MethArCT v0.1 in 2025, SuSha v0.1 in 2026 improved the F1 score from 0.206 to 0.770.
 
 ## Dependencies
 
