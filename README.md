@@ -57,7 +57,7 @@ SuSha -i example.faa -o result
 
 ## Performance
 
-- Ensemble1 F1 score: 77.0%
+- Ensemble1 F1 score = 77.0% (Best Model)
 
 ## Dependencies
 
