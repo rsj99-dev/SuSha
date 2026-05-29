@@ -55,6 +55,10 @@ SuSha -i example.faa -o result
 - **Ensemble learning**: Combines ExtraTrees, RandomForest, Logistic Regression, and LDA classifiers
 - **SHAP interpretability**: Provides feature contribution analysis for each prediction
 
+## Features
+
+- **Ensemble1 F1 score: 77.0%
+
 ## Dependencies
 
 - numpy
