@@ -57,7 +57,7 @@ SuSha -i example.faa -o result
 
 ## Features
 
-- **Ensemble1 F1 score: 77.0%
+- Ensemble1 F1 score: 77.0%
 
 ## Dependencies
 
