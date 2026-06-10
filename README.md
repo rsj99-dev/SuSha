@@ -73,3 +73,9 @@ SuSha -i example.faa -o result
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Citation
+
+If you use SuSha(夙沙氏) in your research, please cite:
+
+[Coming soon]
