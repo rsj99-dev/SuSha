@@ -78,4 +78,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 If you use SuSha(夙沙氏) in your research, please cite:
 
-[Coming soon]
+[Ren, S. et al. SuSha: A multi-model ensemble learning framework for predicting microbial salinity adaptation. Engineering Microbiology 100292 (2026) doi:https://doi.org/10.1016/j.engmic.2026.100292.]
