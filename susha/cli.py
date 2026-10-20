@@ -2,10 +2,18 @@ import argparse
 import sys
 from pathlib import Path
 from .predict import run_prediction
+from . import __version__
 
 def main():
     parser = argparse.ArgumentParser(
         description="SuSha: A multimodal ensemble learning prediction tool for microbial salinity adaptation."
+    )
+
+    parser.add_argument(
+        "-v", "--version",
+        action="version",
+        version=f"SuSha {__version__}",
+        help="Show program version and exit"
     )
     
     parser.add_argument(

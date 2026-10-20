@@ -1,6 +1,10 @@
-# SuSha  (夙沙氏)
+<p align="center">
+  <img src="SuSha_Logo.png" alt="SuSha Logo" width="280">
+</p>
 
-**Version: v0.1.1**
+# SuSha (夙沙氏)
+
+**Version: v1.0.0**
 
 A multimodal ensemble learning prediction tool for microbial salinity adaptation based on genome-wide amino acid composition features.
 
@@ -13,6 +17,17 @@ A multimodal ensemble learning prediction tool for microbial salinity adaptation
 | LoongArch | Linux | 4 GB |
 
 > LoongArch for Linux support：https://github.com/user-attachments/files/27936931/SuSha-LoongArch.tar.gz
+
+## Windows GUI (Pre-built)
+
+No Python installation required. Download the executable and double-click to launch:
+
+| Executable | Interface | Description |
+|------------|-----------|-------------|
+| [夙沙氏_CN.exe](%E5%A4%99%E6%B2%99%E6%B0%8F_CN.exe) | 中文 | Chinese graphical interface |
+| [SuSha_EN.exe](SuSha_EN.exe) | English | English graphical interface |
+
+> Both executables are self-contained Windows x86_64 builds. If Windows SmartScreen warns about an unsigned application, choose "More info" → "Run anyway".
 
 ## Installation
 
@@ -32,6 +47,7 @@ SuSha -i <input_fasta> -o <output_prefix>
 |----------|----------|-------------|
 | `-i`, `--input` | Yes | Input genome protein sequence file (.faa / .fasta) |
 | `-o`, `--output` | Yes | Output Excel/TSV file prefix for prediction results and interpretation |
+| `-v`, `--version` | No | Show version information and exit |
 
 ### Example
 
@@ -58,7 +74,7 @@ SuSha -i example.faa -o result
 ## Performance
 
 - Ensemble1 F1 score = 77.0% (Best Model)
-- Compared to MethArCT v0.1 in 2025, SuSha v0.1 in 2026 improved the F1 score from 0.206 to 0.770.
+- Compared to MethArCT v0.1 in 2025, SuSha v1.0.0 in 2026 improved the F1 score from 0.206 to 0.770.
 
 ## Dependencies
 
@@ -69,6 +85,7 @@ SuSha -i example.faa -o result
 - biopython
 - shap
 - openpyxl
+- joblib
 
 ## License
 
