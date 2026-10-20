@@ -24,8 +24,8 @@ No Python installation required. Download the executable and double-click to lau
 
 | Executable | Interface | Description |
 |------------|-----------|-------------|
-| [夙沙氏_CN.exe](%E5%A4%99%E6%B2%99%E6%B0%8F_CN.exe) | 中文 | Chinese graphical interface |
-| [SuSha_EN.exe](SuSha_EN.exe) | English | English graphical interface |
+| [夙沙氏_CN.exe](sha256:558e1d135bb043364abc3d381d6812d747ceab7a9398fe20e951de8694e5a9e8) | 中文 | Chinese graphical interface |
+| [SuSha_EN.exe](sha256:32434b1203c0faa1c3971b89c99696be339a286353052fbea7f5ed5ad3fb5048) | English | English graphical interface |
 
 > Both executables are self-contained Windows x86_64 builds. If Windows SmartScreen warns about an unsigned application, choose "More info" → "Run anyway".
 
